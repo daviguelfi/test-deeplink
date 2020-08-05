@@ -3,9 +3,6 @@ import React from "react";
 import { Linking } from "expo";
 import { StyleSheet, Text, View, Image, Button } from "react-native";
 
-import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator } from "@react-navigation/stack";
-
 export default function App({ navigation }) {
   return (
     <View style={styles.container}>
@@ -17,14 +14,14 @@ export default function App({ navigation }) {
             uri: "https://picsum.photos/1200/800",
           }}
         /> */}
-        <iframe
+        {/* <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/rZGi1SCj1fU"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+        ></iframe> */}
         <Button
           title="Go to Details"
           onPress={() => navigation.navigate("Details")}
