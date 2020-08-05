@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View, Image, Button } from "react-native";
 
-export default function App({ navigation }) {
+export default function MorePage({ navigation }) {
   return (
     <View style={styles.container}>
       

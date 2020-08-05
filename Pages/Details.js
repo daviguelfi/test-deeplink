@@ -2,10 +2,10 @@ import React from "react";
 import { Linking } from "expo";
 import { StyleSheet, Text, View, Image, Button } from "react-native";
 
-export default function App({ navigation }) {
+export default function Home({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text>DETAILS</Text>
+      <Text>OI</Text>
       <View style={styles.container}>
         <Image
           style={styles.tinyLogo}
@@ -13,9 +13,9 @@ export default function App({ navigation }) {
             uri: "https://picsum.photos/1200/800?blur",
           }}
         />
-         <Button
+        <Button
           title="Go to More Page"
-          onPress={() => navigation.navigate("MorePage")}
+          onPress={() => navigation.navigate("details")}
         />
       </View>
     </View>
